@@ -1,16 +1,7 @@
-.hlavni-kontejner {
-  display: grid; /* Tímto zapneš Grid */
-  
-  /* Definujeme 3 stejně široké sloupce (fr = fractional unit, zabere 1 díl) */
-  grid-template-columns: 1fr 1fr 1fr; 
-  
-  /* Definujeme mezery mezi objekty */
-  gap: 20px; 
-}
 nav{
   display: flex;
   background-color: black;
   flex-direction: row;
   padding: 10px;
-  
+
 }
