@@ -7,3 +7,10 @@
   /* Definujeme mezery mezi objekty */
   gap: 20px; 
 }
+nav{
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  padding: 10px;
+  
+}
