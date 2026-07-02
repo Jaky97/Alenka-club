@@ -41,6 +41,10 @@ nav a{
   object-position: center;
 }
 #fog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -48,4 +52,14 @@ nav a{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); 
   z-index: 2;
+}
+#fog h1{
+  color: white;
+  font-size: 80px;
+  margin: 10px;
+}
+#fog h2{
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+  margin: 10px;
 }
