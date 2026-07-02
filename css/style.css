@@ -1,0 +1,51 @@
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body{
+  background-color: rgb(41, 41, 41);
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 55px;
+  padding: 20px;
+  height: 20px;
+}
+nav img{
+  height: 60px;
+  width: auto;
+  object-fit: cover;
+}
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.intro{
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.intro img{
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#fog{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 2;
+}

@@ -1,0 +1,27 @@
+.slider-win{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 9px solid #5294ff;
+    margin:auto;
+}
+
+.slide-show{
+    display: flex;
+    width: 3000px;
+    animation: slideToleft 12s infinite ease-in-out;
+}
+
+.slide-show img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@keyframes slideToleft {
+    0%, 20%{transform: translateX(0);}
+    25%, 50%{transform: translateX(-600px);}
+    55%, 78%{transform: translateX(-1200px);}
+    82%, 92%{transform: translateX(-1800px);}
+    94%, 100%{transform: translateX(-2400px);}    
+}
