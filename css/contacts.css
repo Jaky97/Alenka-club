@@ -1,0 +1,16 @@
+.contact_box{
+    display: flex;
+    gap: 5em;
+}
+.map{
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+
+}
+.time{
+    text-align: center;
+}
+.socials{
+
+}
