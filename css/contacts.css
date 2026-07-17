@@ -12,5 +12,19 @@
     text-align: center;
 }
 .socials{
+    gap: 5em;
+    
 
+}
+
+.pic{
+    width: 3em;
+    length: 3em;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+.box > a{
+    text-decoration: none;
+    color: inherit;
 }
