@@ -1,6 +1,7 @@
 .contact_box{
     display: flex;
-    gap: 5em;
+    gap: 3em;
+    justify-content: space-around;
 }
 .map{
     margin: 1em;
@@ -12,7 +13,9 @@
     text-align: center;
 }
 .socials{
-    gap: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .pic{
     width: 3em;
@@ -21,7 +24,11 @@
     align-items: center;
     text-decoration: none;
 }
-.box > a{
+.box{
+    margin: 1em;
+    gap: 10px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: inherit;
 }
