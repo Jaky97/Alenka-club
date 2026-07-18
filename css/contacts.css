@@ -13,13 +13,10 @@
 }
 .socials{
     gap: 5em;
-    
-
 }
-
 .pic{
     width: 3em;
-    length: 3em;
+    height: 3em;
     text-align: center;
     align-items: center;
     text-decoration: none;
