@@ -32,3 +32,35 @@
     text-decoration: none;
     color: inherit;
 }
+.box:hover{
+    transform: scale(1.2);
+    -webkit-text-fill-color: transparent;
+}
+
+/* Colors of Links*/
+.ig{
+    background: linear-gradient(to bottom right, #405de6 0%, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #ffdc80 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.fb{
+    background: linear-gradient(to bottom right, #1877f2 0%, #3b5998 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.em{
+    background: linear-gradient(to bottom right, #ffff66 0%, #ff9900 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Colors for SVG */
+.ig:hover path{
+    fill: url(#igGrad);
+}
+.fb:hover path{
+    fill: url(#fbGrad);
+}
+.em:hover path{
+    stroke: url(#emGrad);
+}
