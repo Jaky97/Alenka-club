@@ -11,6 +11,7 @@
 }
 .time{
     text-align: center;
+    flex-wrap: wrap;
 }
 .socials{
     display: flex;
@@ -63,4 +64,19 @@
 }
 .em:hover path{
     stroke: url(#emGrad);
+}
+
+@media (max-width: 900px) {
+    .contact_box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media (max-width: 620px) {
+    .contact_box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 }
