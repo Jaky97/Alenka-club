@@ -1,5 +1,14 @@
-#galery{
+.gal{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2em;
+    padding:2em;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.gal img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
 }
