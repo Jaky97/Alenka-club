@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaky97.github.io/Alenka-club/sitemap.xml
